@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Instant Wave
 
-## Getting Started
+Welcome to Instant Wave - Your Seamless Communication Hub built with Next.js, TypeScript, Shadcn for UI components, Stream for audio and video, and Clerk for user authentication. Instant Wave provides seamless online meetings, complete with authentication via Clerk and various features for scheduling, joining, and managing meetings.
 
-First, run the development server:
+## Frontend
+- **Tailwind CSS Styling**: Utilizes Tailwind CSS for easy and customizable styling of the user interface.
+- **TypeScript**: Written in TypeScript for enhanced code readability and maintainability.
+- **Next.js Dynamic Routing**: Next.js is employed for dynamic routing, enhancing navigation within the application.
+- **Shadcn/ui**: Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Backend
+- **Authentication with Clerk**: Users can register and authenticate using Google Mail, Microsoft Account, GitHub, or traditional username/email and password. Verification is achieved via OTP sent to the user's email.
+- **Stream Integration**: Uses Stream for audio and video streaming, ensuring high-quality real-time communication.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
+- **Meeting Management**: Schedule, join, and manage meetings with ease. Copy invitation links and send them to peers effortlessly.
+- **Meeting Features**: Once in a meeting, users can record, screen share, toggle audio and video, analyze live calls, react with emojis, view participants, and customize layout preferences.
+- **Participant Control**: Meeting creators have the ability to mute/unmute participants, toggle participant videos, and perform other administrative tasks.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Installation
+1. Clone the repository to your local machine.
+   `git clone https://github.com/DurgaSainath189/Instant_Wave.git`
+3. Install dependencies with `npm install`.
+4. Set up environment variables for authentication and other configurations.
+5. Run the application locally with `npm run dev`.
+6. Deploy the application to your preferred hosting platform.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Usage
+1. Register or log in using your preferred authentication method.
+2. Navigate through the sidebar and navbar to access different features and functionalities.
+3. Schedule meetings, join existing ones, and manage meeting settings as needed.
+4. Enjoy seamless online meetings with a variety of features for enhanced collaboration.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## License
+This project is licensed under the [MIT License](LICENSE).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
